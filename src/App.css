@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&display=swap");
+
+@font-face{
+  font-family: 'Sansita Swashed', cursive;
+  src: url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&display=swap")
+}
+@import url("https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap");
+@font-face{
+  font-family: 'Slabo 27px', serif;
+  src: url("https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap")
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap");
+@font-face{
+   font-family: 'Libre Baskerville', serif;
+   src:  url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap");
+@font-face{
+font-family: 'Noto Serif', serif;
+src: url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap")
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,600&display=swap" );
+@font-face{
+  font-family: 'Source Serif Pro', serif;
+  src: url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,600&display=swap" );
+}
+/*nav bar start*/
+ .title{
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 2em !important;
+  }
+  @media (max-width: 385px) {
+    .title{
+      font-family: 'Sansita Swashed', cursive;
+      font-size: 1.5em !important;
+      }
+    }
+.navlink{
+  color:white;
+  margin-right:0.5em;
+  margin-left:0.5em;
+  margin-top:0.5em;
+  font-size:1.75em;
+  font-family: 'Slabo 27px', serif;
+}
+.navlink:hover{
+  color:goldenrod
+}
+/*nav bar end*/
+
+
+/*carousel start*/
+.imgcarousel{
+  height:38em;
+  background-color: black;
+}
+.contentcarousel{
+  font-family: 'Libre Baskerville', serif;
+  color: gold;
+}
+
+
+/*carousel end*/
+
+/*about section start*/
+.about{
+  background-image: url(./images/5.jpg);
+   background-position:center center;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    color:white;
+}
+.abouttitle{
+  font-family: 'Noto Serif', serif;
+  margin-bottom: 0.5em;
+}
+.aboutcontent{
+  font-family: 'Source Serif Pro', serif;
+  padding: 3rem;
+}
+
+/*about section end */
+
+/*images of country start */
+
+.cardtext{
+ color:black;
+}
+.cardtext1{
+  color:grey;
+}
+.cardheader{
+  font-family: 'Libre Baskerville', serif;
+  color:black
+}
+.explreimages{
+  width:101%;
+  height:100%;
+  border:5px inset rgb(0,0,0,0);
+  border-radius: 5%;
+  margin-left:0
+}
+
+/*images of country end*/
+.exploreheader{
+  font-family: 'Libre Baskerville', serif;
+  color:white;
+  text-align: center;
+  padding:1rem;
+}
+
+.see{
+  margin:1%;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+}
+.alignbread{
+  padding-left: 41em;
+}
+@media (min-width:899px)and (max-width: 1200px) {
+  .alignbread{
+    padding-left: 25em;
+  }
+  }
+@media (min-width:600px) and (max-width: 900px) {
+.alignbread{
+  padding-left: 18em;
+}
+}
+@media (max-width: 599px) {
+  .alignbread{
+    padding-left: 5em;
+  }
+  }
+/*destination page */
+.cardcontent{
+   border: outset black !important;
+  background-color:brown;
+  height:auto;
+  margin-left:0.1em;
+  margin-right: 0.2em;
+  font-size:1em;
+  border-radius:0.05rem;
+  font-family: 'Libre Baskerville', serif;
+  color: chocolate;
+}
+.titlecolor{
+color: rgb(163, 20, 20);
+}
+
+/*destination page end*/
+
+
+/*contribute page */
+
+.formoutline{
+  margin-top: 7em;
+}
+@media (max-width: 599px) {
+  .formoutline{
+    width:98% !important;
+  }
+  }
+
+.modalmargin{
+  margin-right:15em;
+  margin-left: -9em;
+}
+@media (max-width: 900px) {
+  .modalmargin{
+    margin-right:10em;
+  }
+  }
+
+  @media (max-width: 599px) {
+    .modalmargin{
+      margin-right:10em;
+    }
+    }
+
+    @media (max-width: 415px) {
+      .modalmargin{
+        margin-right:1.2em;
+        margin-left: 1.2em;
+      }
+      }
